@@ -1961,4 +1961,17 @@ a#scrollUp:hover:after {
 	text-align: right;
 }
 
+.header .header-sticky.sticky {
+	position: fixed;
+	width: 100%;
+	background: #006CB0;
+	z-index: 9;
+	top: 0;
+	text-align: center;
+}
+
+.header .header-sticky.sticky .menu>.menu-item>.sub-menu>.menu-item {
+	text-align: left;
+}
+
 /* about end */

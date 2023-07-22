@@ -95,6 +95,17 @@
 
   })();
 
+  // header sticky
+  $(window).on('scroll', function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 245) {
+      $(".header-sticky").removeClass("sticky");
+    } else {
+      $(".header-sticky").addClass("sticky");
+    }
+  });
+  
+
   // slider active
   $('.slider-active').owlCarousel({
     loop: true,
