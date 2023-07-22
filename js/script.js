@@ -121,7 +121,9 @@
    })
 
   //counterup
+$(document).ready(function(){
   $(".counter").counterUp();
+});
 
   // school video
   $('.video-popup').magnificPopup({
